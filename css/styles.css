@@ -124,6 +124,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 600px;
 }
 
 input, textarea {
@@ -145,13 +146,19 @@ button[type="submit"]:hover {
     background-color: #218838;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #343a40;
     color: white;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 /* Responsive Design */
