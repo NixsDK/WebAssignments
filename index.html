@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+    <title>PAGE_TITLE_HERE</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
 <div class="wrapper">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MySite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><button class="btn btn-outline-light btn-sm" id="theme-toggle">Toggle Theme</button></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <section class="hero">
-        <h1>Welcome to My Website</h1>
-        <p>Your one-stop destination for awesome content.</p>
-        <button onclick="location.href='services.html'">Explore Services</button>
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h1 class="display-4">Welcome to My Website</h1>
+            <p class="lead">Your one-stop destination for awesome content.</p>
+            <a href="services.html" class="btn btn-primary btn-lg">Explore Services</a>
+        </div>
     </section>
 
     <section class="intro">
@@ -51,4 +63,6 @@
     <p>© 2025 My Website</p>
 </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </html>

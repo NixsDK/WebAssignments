@@ -1,0 +1,14 @@
+{
+  "name": "niksdk/web-assignments",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "NiksDK",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
