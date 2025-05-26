@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
 <div class="wrapper">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MySite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><button class="btn btn-outline-light btn-sm" id="theme-toggle">Toggle Theme</button></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <section class="container services py-3">
@@ -22,7 +32,7 @@
         <div class="row" id="service-list">
             <div class="col-md-4 mb-4 service-card">
                 <div class="card h-100">
-                    <img src="images/icon1.png" class="card-img-top" alt="Icon" />
+                    <img src="images/icon1.jpg" class="card-img-top" alt="Icon" />
                     <div class="card-body">
                         <h5 class="card-title">Web Development</h5>
                         <p class="card-text">Creating responsive and functional websites.</p>
@@ -31,7 +41,7 @@
             </div>
             <div class="col-md-4 mb-4 service-card">
                 <div class="card h-100">
-                    <img src="images/icon2.png" class="card-img-top" alt="Icon" />
+                    <img src="images/icon2.jpg" class="card-img-top" alt="Icon" />
                     <div class="card-body">
                         <h5 class="card-title">Design</h5>
                         <p class="card-text">Modern, user-focused design for web and mobile.</p>
@@ -40,7 +50,7 @@
             </div>
             <div class="col-md-4 mb-4 service-card">
                 <div class="card h-100">
-                    <img src="images/icon3.png" class="card-img-top" alt="Icon" />
+                    <img src="images/icon3.jpg" class="card-img-top" alt="Icon" />
                     <div class="card-body">
                         <h5 class="card-title">Support</h5>
                         <p class="card-text">We’re here when you need us the most.</p>
